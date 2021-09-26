@@ -1,0 +1,37 @@
+h5,h6{
+    text-transform: capitalize;
+}
+.descrip{
+    text-transform: capitalize;
+    
+}
+.product-item{
+    background-color: rgba(245, 240, 240, 0.994);
+    min-height: 400px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.product-item img{
+    height: 220px;
+    width: 200px;
+}
+.content{
+    text-align: left;
+    padding: 20px;
+}
+.id-nember{
+    width: 120px;
+    height: 30px;
+    background-color:skyblue;
+    color: white;
+    line-height: 20px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.product-invoic{
+    border-top: 2px solid gray;
+}
+.img-thumbnail{
+    width: 50px;
+    height: 50px;
+}

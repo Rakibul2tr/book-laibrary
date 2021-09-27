@@ -18,8 +18,28 @@
     <script src="https://kit.fontawesome.com/db376d4598.js" crossorigin="anonymous"></script>
     
     <title>Books library</title>
+    <style>
+      .body-bg{
+        background-image: url(./img/react.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        position: relative;
+        z-index: -1;
+      }
+      .overly{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: black;
+        z-index: -1;
+        opacity: 0.4;
+      }
+    </style>
   </head>
-  <body>
+  <body class="body-bg">
+    <div class="overly"></div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     

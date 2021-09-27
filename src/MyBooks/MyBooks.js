@@ -16,7 +16,7 @@ const MyBooks = (props) => {
                 <div className="button-id">
                     <p className="id-nember m-0 me-1 text-center">Books ID : {id}</p>
                     <button onClick={()=> props.addedHendeler(props.Library)} className="btn btn-primary">
-                        <i class="fas fa-shopping-cart pe-2"></i>Add Cart</button>
+                        <i className="fas fa-shopping-cart pe-2"></i>Add Cart</button>
                 </div>
              </div>
            </div>

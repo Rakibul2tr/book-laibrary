@@ -5,7 +5,7 @@ const Header = () => {
         <div className="border-bottom border-5 border-info">
           <nav className="navbar navbar-expand-lg text-white bg-dark">
             <div className="container">
-              <a className="navbar-brand text-white bold" href="h">Books Library</a>
+              <a className="navbar-brand text-white fw-bold" href="h">BOOKS LIBRARY</a>
               <div className="">
                 <ul className="navbar-nav">
                   <li className="nav-item">

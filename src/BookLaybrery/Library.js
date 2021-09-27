@@ -22,7 +22,7 @@ const Library = () => {
         <div className="row">
         <div className="col-md-10 market-aria">
             <div>
-               <h1>Total Books of Our Library: {Librarys.length}</h1>
+               <h1 className="py-5 bg-transparent border-bottom">Total Books of Our Library: {Librarys.length}</h1>
                <div className="row">
                {
                    Librarys.map(item =><MyBooks

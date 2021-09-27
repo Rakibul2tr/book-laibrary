@@ -1,5 +1,6 @@
 h5,h6{
     text-transform: capitalize;
+    margin: 0;
 }
 .descrip{
     text-transform: capitalize;
@@ -8,7 +9,7 @@ h5,h6{
 .product-item{
     background-color: rgba(245, 240, 240, 0.994);
     min-height: 400px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border-radius: 10px;
 }
 .product-item img{
@@ -34,4 +35,9 @@ h5,h6{
 .img-thumbnail{
     width: 50px;
     height: 50px;
+}
+.button-id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

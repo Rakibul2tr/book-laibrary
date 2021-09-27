@@ -12,10 +12,10 @@ const MyBooks = (props) => {
                 <p className="descrip"><strong>Info :</strong> <small>{description}</small></p>
                 <h6>Author : {author}</h6>
                 <h6>publisher : {publisher}</h6>
-                <h6>Product Price : {price} ৳</h6>
+                <h6>Product Price :<strong className="fs-3"> ৳ </strong>{price}</h6>
                 <div className="button-id">
-                    <p className="id-nember m-0">Product ID : {id}</p>
-                    <button onClick={()=> props.addedHendeler(props.Library)} className="btn btn-primary mt-3">
+                    <p className="id-nember m-0 me-1 text-center">Books ID : {id}</p>
+                    <button onClick={()=> props.addedHendeler(props.Library)} className="btn btn-primary">
                         <i class="fas fa-shopping-cart pe-2"></i>Add Cart</button>
                 </div>
              </div>
